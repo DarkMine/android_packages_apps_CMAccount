@@ -149,7 +149,7 @@ public class PersonalizationPage extends Page {
         }
     }
 
-    private static void writeDisableNavkeysOption(Context context, boolean enabled) {
+    /*private static void writeDisableNavkeysOption(Context context, boolean enabled) {
         final int defaultBrightness = context.getResources().getInteger(
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault);
 
@@ -165,7 +165,7 @@ public class PersonalizationPage extends Page {
                     Settings.System.BUTTON_BRIGHTNESS,
                     defaultBrightness);
         }
-    }
+    }*/
 
     protected static boolean hideKeyDisabler() {
         return !KeyDisabler.isSupported();
