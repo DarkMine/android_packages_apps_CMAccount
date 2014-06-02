@@ -143,7 +143,7 @@ public class PersonalizationPage extends Page {
             }*/
         }
 
-        private Runnable mDisableNavKeysRunnable = new Runnable() {
+        /*private Runnable mDisableNavKeysRunnable = new Runnable() {
             @Override
             public void run() {
                 writeDisableNavkeysOption(getActivity(),  false);
@@ -155,7 +155,7 @@ public class PersonalizationPage extends Page {
             public void run() {
                 writeDisableNavkeysOption(getActivity(),  true);
             }
-        };
+        };*/
 
         @Override
         protected int getLayoutResource() {
