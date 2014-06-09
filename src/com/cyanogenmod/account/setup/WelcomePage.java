@@ -132,7 +132,7 @@ public class WelcomePage extends Page {
 
         @Override
         protected int getTitleResource() {
-            return R.string.setup_welcome;
+            return R.string.dcm_welcome;
         }
     }
 
